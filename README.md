@@ -72,7 +72,7 @@ WEBRTC_EXPORT_API void RegisterMetaDataCallback(LebConnectionHandle* handle, OnM
 ```
 WEBRTC_EXPORT_API void RegisterStatsInfoCallback(LebConnectionHandle* handle, OnStatsInfo callback);
 ```
-数据定义详见头文件leb_connection_api.h
+详细数据结构定义请见头文件leb_connection_api.h
 
 ### 4. 播放器集成示例
   ![image](https://github.com/tencentyun/libLebConnectionSDK/blob/main/docs/player_framework.png)
