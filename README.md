@@ -1,6 +1,6 @@
 # 快直播传输层SDK - libLebConnectionSDK
 
-  
+
 ## 1. 主要功能
   - 音视频拉流，兼具优异的低延迟性能和抗弱网能力
   - 视频支持H264和H265，支持B帧，视频输出格式为AnnexB
@@ -15,64 +15,45 @@
 ### 3.1 基础接口说明
 - 创建快直播连接
 ```c
-WEBRTC_EXPORT_API LebConnectionHandle* OpenLebConnection(void* context, LebLogLevel loglevel);
+LEB_EXPORT_API LebConnectionHandle* OpenLebConnection(void* context, LebLogLevel loglevel);
 ```
-- 开始连接，内部完成信令后，直接建联拉流
+- 注册回调函数
 ```c
-WEBRTC_EXPORT_API void StartLebConnection(LebConnectionHandle* handle, LebConfig config);
+LEB_EXPORT_API void RegisterLebCallback(LebConnectionHandle* handle, const LebCallback* callback);
 ```
-- 开始信令，回调onOfferCreated输出offer sdp，通过http交互获取answer sdp
+- 开始连接拉流
 ```c
-WEBRTC_EXPORT_API void CreateOffer(LebConnectionHandle* handle, LebConfig config);
-```
-- 设置获取的answer sdp，开始建联拉流
-```c
-WEBRTC_EXPORT_API void SetRemoteSDP(LebConnectionHandle* handle, LebSdpInfo info);
+LEB_EXPORT_API void StartLebConnection(LebConnectionHandle* handle, LebConfig config);
 ```
 - 停止连接
 ```c
-WEBRTC_EXPORT_API void StopLebConnection(LebConnectionHandle* handle);
+LEB_EXPORT_API void StopLebConnection(LebConnectionHandle* handle);
 ```
 - 关闭连接
 ```c
-WEBRTC_EXPORT_API void CloseLebConnection(LebConnectionHandle* handle);
+LEB_EXPORT_API void CloseLebConnection(LebConnectionHandle* handle);
 ```
-- 播放过程中查询统计数据，onStatsInfo异步回调输出
-```c
-WEBRTC_EXPORT_API void GetStats(LebConnectionHandle* handle);
-```
+
 ### 3.2 回调接口说明
-- 注册日志回调函数
 ```c
-WEBRTC_EXPORT_API void RegisterLogInfoCallback(LebConnectionHandle* handle, OnLogInfo callback);
-```
-- 注册sdp回调函数，获取offer sdp
-```c
-WEBRTC_EXPORT_API void RegisterSdpInfoCallback(LebConnectionHandle* handle, OnSdpInfo callback);
-```
-- 注册视频信息回调函数，获取视频信息
-```c
-WEBRTC_EXPORT_API void RegisterVideoInfoCallback(LebConnectionHandle* handle, OnVideoInfo callback);
-```
-- 注册音频信息回调函数，获取音频信息
-```c
-WEBRTC_EXPORT_API void RegisterAudioInfoCallback(LebConnectionHandle* handle, OnAudioInfo callback);
-```
-- 注册视频数据回调函数，获取视频帧裸数据
-```c
-WEBRTC_EXPORT_API void RegisterVideoDataCallback(LebConnectionHandle* handle, OnEncodedVideo callback);
-```
-- 注册音频数据回调函数，获取音频帧裸数据
-```c
-WEBRTC_EXPORT_API void RegisterAudioDataCallback(LebConnectionHandle* handle, OnEncodedAudio callback);
-```
-- 注册MetaData回调函数，获取MetaData数据
-```c
-WEBRTC_EXPORT_API void RegisterMetaDataCallback(LebConnectionHandle* handle, OnMetaData callback);
-```
-- 注册统计回调函数，获取统计数据
-```c
-WEBRTC_EXPORT_API void RegisterStatsInfoCallback(LebConnectionHandle* handle, OnStatsInfo callback);
+typedef struct LebCallback {
+  // 日志回调
+  OnLogInfo onLogInfo;
+  // 视频信息回调
+  OnVideoInfo onVideoInfo;
+  // 音频信息回调
+  OnAudioInfo onAudioInfo;
+  // 视频数据回调
+  OnEncodedVideo onEncodedVideo;
+  // 音频数据回调
+  OnEncodedAudio onEncodedAudio;
+  // MetaData回调
+  OnMetaData onMetaData;
+  // 统计信息回调
+  OnStatsInfo onStatsInfo;
+  // 错误回调
+  OnError onError;
+} LebCallback;
 ```
 Notes：详细数据结构定义请见头文件**leb_connection_api.h**
 
