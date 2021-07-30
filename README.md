@@ -1,4 +1,4 @@
-# 快直播传输层SDK - libLebConnectionSDK
+# 快直播传输层SDK - libLebConnectionSDK(v1.0.2.2)
 
 
 ## 1. 主要功能
