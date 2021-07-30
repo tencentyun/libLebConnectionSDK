@@ -1,4 +1,4 @@
-# 快直播传输层SDK - libLebConnectionSDK(v1.0.2.2)
+# 快直播传输层SDK - libLebConnectionSDK
 
 
 ## 1. 主要功能
@@ -9,6 +9,8 @@
 
 
 ## 2. SDK接口调用流程
+   - 最新版本：[v1.0.2.2](https://github.com/tencentyun/libLebConnectionSDK/blob/v1.0.2.2)
+   
   ![image](https://github.com/tencentyun/libLebConnectionSDK/blob/main/docs/api_calling_sequence.png)
 
 ## 3. SDK接口说明
