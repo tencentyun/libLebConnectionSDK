@@ -1,0 +1,13 @@
+
+
+v1.0.2.2
+
+- sdk接口优化
+- 增加error code定义和出错回调
+- webrtc demuxer实现优化
+
+
+v1.0.2.1:
+
+- 视频h264、h265拉流
+- 音频aac、opus拉流
