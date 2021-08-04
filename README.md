@@ -61,4 +61,5 @@ Notes：详细数据结构定义请见头文件**leb_connection_api.h**
 
 ### 4. 播放器集成示例
   ![image](https://github.com/tencentyun/libLebConnectionSDK/blob/main/docs/player_framework.png)
+  具体可以参考：[基于ijkplayer的快直播传输层SDK应用实践](https://mp.weixin.qq.com/s/f3ct29ydzAjdJ1fIdOmHmQ)
 
