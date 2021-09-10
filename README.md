@@ -60,6 +60,7 @@ Notes：详细数据结构定义请见头文件**leb_connection_api.h**
 
 ### 4. FFmpeg集成
 SDK提供FFmpeg webrtc demuxer源码：webrtc_demuxer.c，可以实现FFmpeg快直播拉流和媒体处理，以及ffplay播放
+FFmpeg配置编译可以参考：[快直播传输层SDK FFmpeg集成说明](https://docs.qq.com/doc/DWExGWnZacnZWR2JW)
 
 ### 5. 播放器集成示例
   ![image](https://github.com/tencentyun/libLebConnectionSDK/blob/main/docs/player_framework.png)
