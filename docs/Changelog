@@ -1,4 +1,7 @@
-
+v1.0.2.3
+- sdk优化
+- 增加linux版本
+- webrtc demuxer实现优化
 
 v1.0.2.2
 
