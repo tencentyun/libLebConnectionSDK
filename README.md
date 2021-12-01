@@ -4,8 +4,8 @@
 ## 1. 主要功能
   - 音视频拉流，兼具优异的低延迟性能和抗弱网能力
   - 视频支持H264和H265，支持B帧，视频输出格式为AnnexB视频帧裸数据
-  - 音频支持AAC和OPUS，音频输出格式为不含头信息的音频帧裸数据
-  - 支持Android、IOS、Windows和Linux平台
+  - 音频支持AAC和OPUS，音频输出格式为音频帧裸数据
+  - 支持Android、iOS、Windows、Linux和Mac平台
 
 
 ## 2. SDK接口调用流程
