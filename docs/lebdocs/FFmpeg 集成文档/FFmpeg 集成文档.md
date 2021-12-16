@@ -16,7 +16,7 @@
 
 ### 下载FFmpeg适配patch
 
-1. `wget https://git.woa.com/ryanmjiang/leb-sdk-doc/raw/origin/lebdoc/FFmpeg%20%E9%9B%86%E6%88%90%E6%96%87%E6%A1%A3/files/patch/0001-integrate-libLebConnection-to-FFmpeg-by-adding-webrtc.patch`
+1. `wget https://recorder-10018504.cos.ap-shanghai.myqcloud.com/feiwei/libLebConnection/0001-integrate-libLebConnection-to-FFmpeg-by-adding-webrtc.patch`
 
 2. `git am 0001-integrate-libLebConnection-to-FFmpeg-by-adding-webrtc.patch`
 
@@ -24,9 +24,7 @@
 
 ### 下快直播传输层SDK
 
-1. `wget https://git.woa.com/ryanmjiang/leb-sdk-doc/raw/origin/lebdoc/FFmpeg%20%E9%9B%86%E6%88%90%E6%96%87%E6%A1%A3/files/lib/libLebConnection_linux_v1.0.2_twebrtc14b8a7f1b2_tffmpegbabcf62544_2021-10-19-10-49.zip`
-
-   ​       或从https://github.com/tencentyun/libLebConnectionSDK 下载最新版本SDK
+1. 访问 https://github.com/tencentyun/libLebConnectionSDK/tree/main/libs 下载最新版本SDK
 
 2. `unzip -d libLebConnection libLebConnection_linux_v1.0.2_twebrtc14b8a7f1b2_tffmpegbabcf62544_2021-10-19-10-49.zip`
 
