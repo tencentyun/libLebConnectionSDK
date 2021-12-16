@@ -6,7 +6,7 @@
 
 ### [快速入门](https://cloud.tencent.com/document/product/267/41870)
 
-### [DEMO 体验](https://github.com/tencentyun/libLebConnectionSDK/blob/main/docs/lebdocs/DEMO%E4%BD%93%E9%AA%8C/DEMO%E4%BD%93%E9%AA%8C.md)
+### [DEMO 体验](https://github.com/tencentyun/libLebConnectionSDK/blob/lebdocs/docs/lebdocs/DEMO%E4%BD%93%E9%AA%8C/DEMO%E4%BD%93%E9%AA%8C.md)
 
 ### Full SDK 接入
 
