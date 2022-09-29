@@ -1,3 +1,9 @@
+### v1.0.3.4 @ 2022.09.26
+- 支持TCP transport
+- 升级minisdp
+- 优化回源模式
+- 优化音视频数据输出
+
 ### v1.0.3.3 @ 2022.06.22
 - 增加video jitterbuffer
 - 支持video fec
