@@ -5,23 +5,23 @@
 
 ## Android
 
-[libLebConnection_android_v1.0.3.4_twebrtcab7db233799_tffmpeg1bc93cff34_2022-09-26-17-12.zip](https://video.sdk.qcloudecdn.com/lebsdk/0927/libLebConnection_android_v1.0.3.4_twebrtcab7db233799_tffmpeg1bc93cff34_2022-09-26-17-12.zip)
+[libLebConnection_android_v1.0.3.4_twebrtc18f2d1b478a_tffmpeg1bc93cff34_2022-10-24-11-16.zip](https://video.sdk.qcloudecdn.com/lebsdk/1025/libLebConnection_android_v1.0.3.4_twebrtc18f2d1b478a_tffmpeg1bc93cff34_2022-10-24-11-16.zip)
 
 [ijkplayer example.apk](https://video.sdk.qcloudecdn.com/lebsdk/0927/ijkplayer-example-arm64-20220926.apk)
 
 ## iOS
 
-[libLebConnection_ios_v1.0.3.4_twebrtcab7db23379_tffmpeg1bc93cff34_2022-09-26-17-16.zip](https://video.sdk.qcloudecdn.com/lebsdk/0927/libLebConnection_ios_v1.0.3.4_twebrtcab7db23379_tffmpeg1bc93cff34_2022-09-26-17-16.zip)
+[libLebConnection_ios_v1.0.3.4_twebrtc18f2d1b478_tffmpeg1bc93cff34_2022-10-24-11-25.zip](https://video.sdk.qcloudecdn.com/lebsdk/1025/libLebConnection_ios_v1.0.3.4_twebrtc18f2d1b478_tffmpeg1bc93cff34_2022-10-24-11-25.zip)
 
 ## Windows
 
-[libLebConnection_win_v1.0.3.4_twebrtcab7db233799_tffmpeg1bc93cff34_2022_09_26_17_15_34.zip](https://video.sdk.qcloudecdn.com/lebsdk/0927/libLebConnection_win_v1.0.3.4_twebrtcab7db233799_tffmpeg1bc93cff34_2022_09_26_17_15_34.zip)
+[libLebConnection_win_v1.0.3.4_twebrtc18f2d1b478a_tffmpeg1bc93cff34_2022_10_24_11_10_08.zip](https://video.sdk.qcloudecdn.com/lebsdk/1025/libLebConnection_win_v1.0.3.4_twebrtc18f2d1b478a_tffmpeg1bc93cff34_2022_10_24_11_10_08.zip)
 
 ## Linux
 
-[libLebConnection_linux_v1.0.3.4_twebrtcab7db233799_tffmpeg1bc93cff34_2022-09-26-17-15.zip](https://video.sdk.qcloudecdn.com/lebsdk/0927/libLebConnection_linux_v1.0.3.4_twebrtcab7db233799_tffmpeg1bc93cff34_2022-09-26-17-15.zip)
+[libLebConnection_linux_v1.0.3.4_twebrtc18f2d1b478a_tffmpeg1bc93cff34_2022-10-24-11-19.zip](https://video.sdk.qcloudecdn.com/lebsdk/1025/libLebConnection_linux_v1.0.3.4_twebrtc18f2d1b478a_tffmpeg1bc93cff34_2022-10-24-11-19.zip)
 
 ## Mac
 
-[libLebConnection_mac_v1.0.3.4_twebrtcab7db23379_tffmpeg1bc93cff34_2022-09-26-17-11.zip](https://video.sdk.qcloudecdn.com/lebsdk/0927/libLebConnection_mac_v1.0.3.4_twebrtcab7db23379_tffmpeg1bc93cff34_2022-09-26-17-11.zip)
+[libLebConnection_mac_v1.0.3.4_twebrtc18f2d1b478_tffmpeg1bc93cff34_2022-10-24-10-55.zip](https://video.sdk.qcloudecdn.com/lebsdk/1025/libLebConnection_mac_v1.0.3.4_twebrtc18f2d1b478_tffmpeg1bc93cff34_2022-10-24-10-55.zip)
 
