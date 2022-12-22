@@ -3,17 +3,17 @@
 
 ## 1. 简介
   快直播传输层SDK提供基于原生WebRTC升级扩展的传输能力，用户仅需对已有播放器进行简单改造，即可接入快直播。在完全兼容标准直播的推流、云端媒体处理能力的基础上，实现高并发低延迟直播，帮助用户实现从现有的标准直播平滑地迁移到快直播上来。也可以帮助用户在现有RTC场景中快速实现低成本的大房间低延迟旁路直播。
-  
+
   快直播传输层SDK主要功能:
   - 音视频拉流，兼具优异的低延迟性能和抗弱网能力
   - 视频支持H264、H265和AV1，支持B帧，视频输出格式为视频帧裸数据(H264/H265为AnnexB，AV1为OBU)
-  - 音频支持AAC和OPUS，音频输出格式为音频帧裸数据
+  - 音频支持AAC和OPUS，音频输出格式为音频帧裸数据(启用内部播控时音频输出为PCM S16)
   - 支持Android、iOS、Windows、Linux和Mac平台
 
 
 ## 2. SDK接口调用流程
-   
-  ![image](https://github.com/tencentyun/libLebConnectionSDK/blob/main/docs/api_calling_sequence.png)
+
+  ![image](https://video.sdk.qcloudecdn.com/lebsdk/api_calling_sequence.png)
 
 ## 3. SDK接口说明
 ### 3.1 基础接口说明
@@ -69,6 +69,10 @@ SDK提供FFmpeg webrtc demuxer源码：webrtc_demuxer.c，可以实现FFmpeg快�
 [mac_build_guide](https://github.com/feiwei9696/FFmpeg/blob/release/5.0_webrtc/libLebConnection/build_guide_mac.md)
 
 ### 5. 播放器集成示例
-  ![image](https://github.com/tencentyun/libLebConnectionSDK/blob/main/docs/player_framework.png)
-  具体可以参考：[基于ijkplayer的快直播传输层SDK应用实践](https://mp.weixin.qq.com/s/f3ct29ydzAjdJ1fIdOmHmQ)
+
+- 外部播控
+  ![image](https://video.sdk.qcloudecdn.com/lebsdk/player_framework.png)
+    具体可以参考：[基于ijkplayer的快直播传输层SDK应用实践](https://mp.weixin.qq.com/s/f3ct29ydzAjdJ1fIdOmHmQ)
+- 内部播控
+  ![image](https://video.sdk.qcloudecdn.com/lebsdk/player_framework2.png)
 
