@@ -76,3 +76,7 @@ SDK提供FFmpeg webrtc demuxer源码：webrtc_demuxer.c，可以实现FFmpeg快�
 - 内部播控
   ![image](https://video.sdk.qcloudecdn.com/lebsdk/player_framework2.png)
 
+### 6. 其他 
+
+[WebRTC Web Demo体验](https://mps.live/demo/encoding/webrtc)
+
